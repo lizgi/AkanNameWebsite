@@ -5,10 +5,12 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel ="stylesheet" href ="bootstrap/bootstrap-5.1.0-dist/css/bootstrap-grid.min.css">
+    <link rel ="stylesheet" href ="index.css">
     <title>AkanNameWebsite</title>
 </head>
 <body>
-    <div class ="container">
+    <!--start of nav bar-->
+    <div class ="container-fluid">
     <nav id ="navbar">
         <ul>
             <li><a href = "#home" class = "scroll active" id="home-link">HOME</a></li>
@@ -17,9 +19,12 @@
             <li><a href = "#contact" class = "scroll active" id="contact-link">CONTACT</a></li>
         </ul>
     </nav>
+    <!--End of navbar-->
+
+    <!--start of about-->
     <section id ="about-sect" class="about"></section>
     <h3 class = "about-title">ABOUT</h3>
-    <h1>Akan Name Assigner Website</h1>
+    <h4>Akan Name Assigner Website</h4>
     <p>This application aims at assigning an individual an akan name based on two criterias,,<br>
     the day of the week they were born and the gender,,.<br>
     It certainly will be fun to know what ones name would be if they were to be from <em>GHANA.</em></p>
@@ -74,19 +79,31 @@
                  </tr>
   </table>
 </div>
-<section id ="about-sect" class="about"></section>
-    <h3 class = "about-title">PROJECT</h3>
+<!--end of about us-->
 
+<!--project section-->
+<section id ="project-sect" class="project"></section>
+    <h3 class = "project-title">PROJECT</h3>
 
+<form id="form" method="POST">
+<fieldset>
+    <legend>Input your DOB to get started:</legend>
+    Date:<input type="number" id="date">
+    Month:<input type="number" id="Month">
+    Year:<input type="number" id="year">
+    <select id="gender">
+        <option value="Female">Female</option>
+        <option value="male">Male</option>
+        </select>
+</fieldset>
+<br>
+<input type="submit" value="submit" id="submitbutton" class="btn btn-primary" onclick="generateName(); return false"/>
+<h2 class ="text-center" id="result">Results:</h2>
+</form>
+<!--project end-->
 
-
-
-
-
-
-
-    <section id ="about-sect" class="about"></section>
-    <h3 class = "about-title">CONTACT</h3>
+    <section id ="contact-sect" class="contact"></section>
+    <h3 class = "contact-title">CONTACT</h3>
 </div>
 </body>
 </html>
