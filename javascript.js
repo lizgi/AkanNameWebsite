@@ -26,10 +26,10 @@ function getname(){
         alert("!! Year can not be null");
     }
     if (dob <= 0 || dob>31){
-        alert("Date can not be zero or greater than 31")
+        alert("Date can not be less than 1 or greater than 31")
         return false;
     }else if(mob <= 0 || mob>12){
-        alert("Month can not be zero or greater than 12")
+        alert("Month can not be less than 1 or greater than 12")
         return false;
     }else if(yob <= 0 || yob>getcurrentyear()){
         alert("Year can not be zero or greater than current year")
