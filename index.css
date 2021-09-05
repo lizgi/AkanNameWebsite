@@ -20,6 +20,13 @@ body{
 #navbar ul li a.active {
     color:rgb(25, 114, 216);
 }
+.hero-section{
+    background-image: url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQOehEhjZ-6fG-fuoHkZ0x4nXFN7oDEvZ2VlA&usqp=CAU");
+    background-repeat: no-repeat;
+    background-size: cover;
+    min-height:600px;
+}
+
 .names{
     text-align: center;
 }
