@@ -4,22 +4,23 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel ="stylesheet" href ="bootstrap/bootstrap-5.1.0-dist/css/bootstrap-grid.min.css">
-    <link rel ="stylesheet" href ="index.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-KyZXEAg3QhqLMpG8r+8fhAXLRk2vvoC2f3B09zVXn8CA5QIVfZOJ3BCsw2P0p/We" crossorigin="anonymous"> <link rel ="stylesheet" href ="index.css">
     <title>AkanNameWebsite</title>
 </head>
 <body>
     <!--start of nav bar-->
-    <div class ="container-fluid">
+    <div class ="container">
     <nav id ="navbar">
         <ul>
-            <li><a href = "#home" class = "scroll active" id="home-link">HOME</a></li>
+            <li><a href = "#" class = "scroll active" id="home-link">HOME</a></li>
             <li><a href = "#about" class = "scroll active" id="about-link">ABOUT</a></li>
             <li><a href = "#project" class = "scroll active" id="project-link">PROJECT</a></li>
             <li><a href = "#contact" class = "scroll active" id="contact-link">CONTACT</a></li>
         </ul>
     </nav>
     <!--End of navbar-->
+    
+
 
     <!--start of about-->
     <section id ="about-sect" class="about"></section>
@@ -29,13 +30,14 @@
     the day of the week they were born and the gender,,.<br>
     It certainly will be fun to know what ones name would be if they were to be from <em>GHANA.</em></p>
 
-<div class = "names">
+<div class = "names allign-center">
     <table>
 <tr>
     <th>Days</th>
     <th>MALES</th>
     <th>FEMALES</th>
 </tr>
+
 <tr>
 <td>Sunday</td>
 <td>Kwasi</td>
@@ -81,7 +83,7 @@
 </div>
 <!--end of about us-->
 
-<!--project section-->
+<!--project section start-->
 <section id ="project-sect" class="project"></section>
     <h3 class = "project-title">PROJECT</h3>
 
@@ -100,7 +102,7 @@
 <input type="submit" value="submit" id="submitbutton" class="btn btn-primary" onclick="generateName(); return false"/>
 <h2 class ="text-center" id="result">Results:</h2>
 </form>
-<!--project end-->
+<!--project section end-->
 
     <section id ="contact-sect" class="contact"></section>
     <h3 class = "contact-title">CONTACT</h3>

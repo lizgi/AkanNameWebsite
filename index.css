@@ -1,0 +1,22 @@
+body{
+    text-align: center;
+    background-color: aqua;
+}
+#navbar ul {
+    margin: 0;
+    padding: 0;
+    list-style-type: none;
+    display: flex;
+    justify-content: flex-end;
+}
+
+#navbar ul li a {
+    display: block;
+    padding: 15px;
+    margin-right: 2vw;
+    text-decoration: none;
+}
+
+#navbar ul li a.active {
+    color:rgb(25, 114, 216);
+}
