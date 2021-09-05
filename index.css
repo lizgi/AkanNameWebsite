@@ -20,3 +20,14 @@ body{
 #navbar ul li a.active {
     color:rgb(25, 114, 216);
 }
+.names{
+    text-align: center;
+}
+#project > p{
+    text-decoration: blueviolet;
+}
+#result-box{
+    border: 1px solid;
+    padding: 10px;
+    box-shadow: 5px 10px rgb(255, 136, 0);
+}
