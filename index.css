@@ -1,6 +1,6 @@
 body{
     text-align: center;
-    background-color: rgb(119, 137, 172);
+    background-color: rgb(53, 137, 172);
 }
 
 #navbar ul {
@@ -9,7 +9,7 @@ body{
     list-style-type: none;
     display: flex;
     justify-content: flex-end;
-    color: darkcyan;
+    background-color: darkcyan;
 }
 
 #navbar ul li a {
@@ -37,4 +37,7 @@ body{
     border: 1px solid;
     padding: 10px;
     box-shadow: 5px 10px rgb(85, 115, 175);
+}
+footer{
+    background-color: rgb(53, 187, 187);
 }
