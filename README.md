@@ -50,5 +50,5 @@ ELIZABETH GIKONYO
 https://github.com/lizgi/
 
 ## LICENSE
-LICENSE
 
+https://github.com/lizgi/AkanNameWebsite/blob/master/LICENSE
