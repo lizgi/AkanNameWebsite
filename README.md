@@ -50,4 +50,5 @@ ELIZABETH GIKONYO
 https://github.com/lizgi/
 
 ## LICENSE
-MIT LICENSE
+LICENSE
+
